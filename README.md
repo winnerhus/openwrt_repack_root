@@ -7,7 +7,7 @@
 
 # QA
 ## 为什么刷了以后没变化?
-可能是你的固件精简过度或是固件版本比你的更新，可以进入UBoot，然后刷入-squashfs-nand-sysupgrade.bin结尾的文件，然后在那个系统里更新。
+可能是你的固件精简过度或是固件版本比你的更新，可以进入UBoot刷-squashfs-nand-factory.bin结尾的文件，进入那个系统后，在那个系统里更新修改得到的0nand-sysupgrade-mod文件。
 
 ## 上面说到的sysupgrade文件是什么?
 下载固件的时候有两种，以sysupgrade.bin就是它。
